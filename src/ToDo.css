@@ -1,0 +1,8 @@
+.todo-item {
+  display: inline-block;
+  margin: 5px;
+}
+.btn {
+  height: 25px;
+  border-radius: 25%;
+}
