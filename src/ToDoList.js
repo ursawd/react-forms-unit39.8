@@ -15,8 +15,6 @@ const ToDoList = () => {
   const remove = (id) =>
     setTodos((todos) => todos.filter((todo) => todo.id !== id));
 
-  // const edit = (id) =>
-
   const add = (addObj) => {
     setTodos((todos) => [...todos, { ...addObj, id: uuid() }]);
   };
@@ -29,7 +27,6 @@ const ToDoList = () => {
         task={todo.task}
         completed={todo.completed}
         handleRemove={remove}
-        handleEdit={edit}
       />
     );
   });

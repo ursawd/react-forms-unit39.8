@@ -30,7 +30,7 @@ const NewToDoForm = ({ addToDo }) => {
         placeholder="Enter new ToDo here..."
       />
       <button className="input-btn" type="submit">
-        Add ToDo
+        Add New ToDo
       </button>
     </form>
   );
